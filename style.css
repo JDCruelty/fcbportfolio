@@ -1,0 +1,28 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250 px;
+	border-radius: 50%;
+}
+
+body {
+	background-color: #551626;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23551626' cx='50' cy='0' r='50'/%3E%3Cg fill='%235d1728' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2365182b' cx='50' cy='100' r='50'/%3E%3Cg fill='%236e192d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23761a2f' cx='50' cy='200' r='50'/%3E%3Cg fill='%237f1b30' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23871c32' cx='50' cy='300' r='50'/%3E%3Cg fill='%23901d34' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23981e35' cx='50' cy='400' r='50'/%3E%3Cg fill='%23a11f36' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a92037' cx='50' cy='500' r='50'/%3E%3Cg fill='%23b22238' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bb2338' cx='50' cy='600' r='50'/%3E%3Cg fill='%23c32539' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cc2739' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d52939' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dd2c39' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e62f39' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ee3238' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f73537' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FF3836' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+#landing {
+	height: 80vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
